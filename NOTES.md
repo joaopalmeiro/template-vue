@@ -1,5 +1,9 @@
 # Notes
 
+## References
+
+- https://github.com/egoist/ts-lib-starter
+
 ## Commands
 
 ```bash
