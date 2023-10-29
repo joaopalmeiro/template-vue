@@ -9,5 +9,5 @@
 ## Commands
 
 ```bash
-npm install -D create-vite-tsconfigs sort-package-json
+npm install vue && npm install -D vite @vitejs/plugin-vue typescript vue-tsc create-vite-tsconfigs sort-package-json npm-run-all2 prettier
 ```

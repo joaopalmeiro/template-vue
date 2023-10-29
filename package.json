@@ -9,7 +9,11 @@
   "scripts": {
     "build": "vue-tsc && vite build",
     "dev": "vite",
+    "format": "run-s format:pkgJson format:code",
+    "format:code": "prettier . --write",
     "format:pkgJson": "sort-package-json",
+    "lint": "run-s lint:pkgJson lint:code",
+    "lint:code": "prettier . --check",
     "lint:pkgJson": "sort-package-json --check",
     "preview": "vite preview"
   }
