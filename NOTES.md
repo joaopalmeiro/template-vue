@@ -1,6 +1,6 @@
 # Notes
 
-## References
+## Template References
 
 - https://github.com/egoist/ts-lib-starter
 - https://github.com/vitejs/vite/tree/main/packages/create-vite/template-vue-ts
