@@ -11,6 +11,7 @@
 - https://github.com/joaopalmeiro/create-vite-tsconfigs
 - https://www.typescriptlang.org/docs/handbook/project-references.html#overall-structure
 - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#composite-projects
+- https://www.typescriptlang.org/tsconfig#allowImportingTsExtensions
 
 ## Commands
 

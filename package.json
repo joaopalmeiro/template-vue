@@ -16,10 +16,12 @@
     "format": "run-s format:pkgJson format:code",
     "format:code": "prettier . --write",
     "format:pkgJson": "sort-package-json",
-    "lint": "run-s lint:pkgJson lint:code",
+    "lint": "run-s lint:pkgJson lint:types lint:code",
+    "lint:appTypes": "vue-tsc --project tsconfig.app.json --noEmit --composite false",
     "lint:code": "prettier . --check",
+    "lint:nodeTypes": "vue-tsc --project tsconfig.node.json --noEmit --composite false",
     "lint:pkgJson": "sort-package-json --check",
-    "lint:types": "vue-tsc --project tsconfig.app.json --composite false",
+    "lint:types": "run-s lint:appTypes lint:nodeTypes",
     "preview": "vite preview"
   }
 }
