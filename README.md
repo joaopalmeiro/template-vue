@@ -11,6 +11,8 @@ Opinionated [Vue](https://vuejs.org/) template for new projects.
 
 ## Development
 
+Install [fnm](https://github.com/Schniz/fnm) (if necessary).
+
 ```bash
 fnm install && fnm use && node --version
 ```
