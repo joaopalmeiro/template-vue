@@ -7,7 +7,8 @@
   "author": "João Palmeiro",
   "type": "module",
   "scripts": {
-    "build": "vue-tsc && vite build",
+    "build": "run-s lint:types build:app",
+    "build:app": "vite build",
     "check": "run-s check:appTsConfig check:nodeTsConfig",
     "check:appTsConfig": "vue-tsc --project tsconfig.app.json --showConfig",
     "check:nodeTsConfig": "vue-tsc --project tsconfig.node.json --showConfig",
@@ -18,6 +19,7 @@
     "lint": "run-s lint:pkgJson lint:code",
     "lint:code": "prettier . --check",
     "lint:pkgJson": "sort-package-json --check",
+    "lint:types": "vue-tsc --project tsconfig.app.json --composite false",
     "preview": "vite preview"
   }
 }
