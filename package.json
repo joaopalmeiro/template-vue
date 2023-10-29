@@ -1,4 +1,16 @@
 {
   "name": "template-vue",
-  "description": "Opinionated Vue template for new projects."
+  "version": "0.0.0",
+  "private": true,
+  "description": "Opinionated Vue template for new projects.",
+  "license": "MIT",
+  "author": "João Palmeiro",
+  "type": "module",
+  "scripts": {
+    "build": "vue-tsc && vite build",
+    "dev": "vite",
+    "format:pkgJson": "sort-package-json",
+    "lint:pkgJson": "sort-package-json --check",
+    "preview": "vite preview"
+  }
 }
