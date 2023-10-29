@@ -29,3 +29,7 @@ fnm install && fnm use && node --version
 ```bash
 npm install
 ```
+
+```bash
+npm run dev
+```
