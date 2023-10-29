@@ -1,0 +1,3 @@
+{
+  "extends": "create-vite-tsconfigs/vue/tsconfig.json"
+}
