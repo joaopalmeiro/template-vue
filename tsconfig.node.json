@@ -1,3 +1,4 @@
 {
-  "extends": "create-vite-tsconfigs/vue/tsconfig.node.json"
+  "extends": "create-vite-tsconfigs/vue/tsconfig.node.json",
+  "include": ["vite.config.ts"]
 }

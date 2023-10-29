@@ -8,6 +8,9 @@
   "type": "module",
   "scripts": {
     "build": "vue-tsc && vite build",
+    "check": "run-s check:appTsConfig check:nodeTsConfig",
+    "check:appTsConfig": "vue-tsc --project tsconfig.app.json --showConfig",
+    "check:nodeTsConfig": "vue-tsc --project tsconfig.node.json --showConfig",
     "dev": "vite",
     "format": "run-s format:pkgJson format:code",
     "format:code": "prettier . --write",
