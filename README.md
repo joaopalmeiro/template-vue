@@ -33,3 +33,11 @@ npm install
 ```bash
 npm run dev
 ```
+
+```bash
+npm run lint
+```
+
+```bash
+npm run format
+```
