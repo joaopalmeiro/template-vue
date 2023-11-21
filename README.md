@@ -11,6 +11,12 @@ Opinionated [Vue](https://vuejs.org/) template for new projects.
 npx degit github:joaopalmeiro/template-vue
 ```
 
+or
+
+```bash
+npx degit github:joaopalmeiro/template-vue --force
+```
+
 3. Search for `template-vue` and replace it with the project name.
 4. Search for `Opinionated Vue template for new projects.`/`Opinionated [Vue](https://vuejs.org/) template for new projects.` and replace it with the (short) project description.
 5. Search for `João Palmeiro` and replace it with the author's name.
