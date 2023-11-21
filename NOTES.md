@@ -12,6 +12,10 @@
 - https://www.typescriptlang.org/docs/handbook/project-references.html#overall-structure
 - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#composite-projects
 - https://www.typescriptlang.org/tsconfig#allowImportingTsExtensions
+- https://github.com/vuejs/create-vue/tree/main/template/tsconfig/base:
+  - https://github.com/vuejs/create-vue/blob/main/template/tsconfig/base/tsconfig.json
+  - https://github.com/vuejs/create-vue/blob/main/template/tsconfig/base/tsconfig.app.json
+  - https://github.com/vuejs/create-vue/blob/main/template/tsconfig/base/tsconfig.node.json
 
 ## Commands
 
