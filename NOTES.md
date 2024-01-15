@@ -17,8 +17,19 @@
   - https://github.com/vuejs/create-vue/blob/main/template/tsconfig/base/tsconfig.app.json
   - https://github.com/vuejs/create-vue/blob/main/template/tsconfig/base/tsconfig.node.json
 
+### Snippets
+
+```markdown
+6. Run the first command in the [`Development` section](#development) to install [Node.js](https://nodejs.org/en).
+7. Open the [NOTES.md](NOTES.md) file and run the first command in the [`Commands` section](NOTES.md#commands) to install the base packages.
+```
+
 ## Commands
 
 ```bash
 npm install vue && npm install -D vite @vitejs/plugin-vue typescript vue-tsc create-vite-tsconfigs sort-package-json npm-run-all2 prettier
+```
+
+```bash
+rm -rf node_modules/ && npm install
 ```
