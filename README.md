@@ -20,10 +20,10 @@ npx degit github:joaopalmeiro/template-vue --force
 3. Search for `template-vue` and replace it with the project name.
 4. Search for `Opinionated Vue template for new projects.`/`Opinionated [Vue](https://vuejs.org/) template for new projects.` and replace it with the (short) project description.
 5. Search for `João Palmeiro` and replace it with the author's name.
-6. Run the first command in the `Development` section to install [Node.js](https://nodejs.org/en).
-7. Open the [NOTES.md](NOTES.md) file and run the first command in the `Commands` section to install the base packages.
-8. Delete the `Template References` section from the [NOTES.md](NOTES.md) file.
-9. Delete the `Getting Started` section.
+6. Run the first command in the [`Development` section](#development) to install [Node.js](https://nodejs.org/en).
+7. Open the [NOTES.md](NOTES.md) file and run the first command in the [`Commands` section](NOTES.md#commands) to install the base packages.
+8. Delete the [`Template References` section](NOTES.md#template-references) from the [NOTES.md](NOTES.md) file.
+9. Delete the [`Getting Started` section](#getting-started).
 
 ## Development
 
