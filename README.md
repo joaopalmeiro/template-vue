@@ -30,7 +30,7 @@ npx degit github:joaopalmeiro/template-vue --force
 Install [fnm](https://github.com/Schniz/fnm) (if necessary).
 
 ```bash
-fnm install && fnm use && node --version
+fnm install && fnm use && node --version && npm --version
 ```
 
 ```bash
