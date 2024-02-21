@@ -22,6 +22,7 @@
 - https://github.com/vuejs/create-vue/releases/tag/v3.9.0
 - https://github.com/vuejs/language-tools/issues/3889
 - https://github.com/vuejs/language-tools/issues/3638
+- https://www.typescriptlang.org/tsconfig#tsBuildInfoFile
 
 ### Commands
 
@@ -31,6 +32,10 @@ npm create vue@3.9.2 test-create-vue
 
 ```bash
 npm create vite@5.2.1 test-create-vite -- --template vue-ts
+```
+
+```bash
+rm -rf test-create-vite/ test-create-vue/
 ```
 
 ### Snippets
