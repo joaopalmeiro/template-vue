@@ -9,6 +9,7 @@
 - https://github.com/vuejs/create-vue/blob/main/template/config/typescript/package.json
   - `"type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"`
 - https://github.com/joaopalmeiro/create-vite-tsconfigs
+- https://github.com/joaopalmeiro/create-vue-tsconfigs
 - https://www.typescriptlang.org/docs/handbook/project-references.html#overall-structure
 - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#composite-projects
 - https://www.typescriptlang.org/tsconfig#allowImportingTsExtensions
@@ -61,7 +62,7 @@ rm -rf test-create-vite/ test-create-vue/
 ## Commands
 
 ```bash
-npm install vue && npm install -D vite @vitejs/plugin-vue typescript vue-tsc create-vite-tsconfigs sort-package-json npm-run-all2 prettier
+npm install vue && npm install -D vite @vitejs/plugin-vue typescript vue-tsc create-vue-tsconfigs sort-package-json npm-run-all2 prettier
 ```
 
 ```bash

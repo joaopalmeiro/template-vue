@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "5.0.4",
-    "create-vite-tsconfigs": "0.2.0",
+    "create-vue-tsconfigs": "0.1.0",
     "npm-run-all2": "6.1.2",
     "prettier": "3.2.5",
     "sort-package-json": "2.8.0",
