@@ -27,7 +27,7 @@ npm create vue@3.9.2 test-create-vue
 ```
 
 ```bash
-$ npm create vite@5.2.1 test-create-vite -- --template vue-ts
+npm create vite@5.2.1 test-create-vite -- --template vue-ts
 ```
 
 ### Snippets
