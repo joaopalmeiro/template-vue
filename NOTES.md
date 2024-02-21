@@ -14,6 +14,7 @@
 - https://www.typescriptlang.org/tsconfig#allowImportingTsExtensions
 - https://github.com/vuejs/create-vue/tree/main/template/tsconfig/base:
   - https://github.com/vuejs/create-vue/blob/main/template/tsconfig/base/tsconfig.json
+  - https://github.com/vuejs/create-vue-templates/blob/v3.9.2/typescript/tsconfig.json
   - https://github.com/vuejs/create-vue/blob/main/template/tsconfig/base/tsconfig.app.json
   - https://github.com/vuejs/create-vue/blob/main/template/tsconfig/base/tsconfig.node.json
 - https://github.com/vuejs/create-vue-templates/tree/v3.9.2/typescript
@@ -35,6 +36,19 @@ npm create vite@5.2.1 test-create-vite -- --template vue-ts
 ```markdown
 6. Run the first command in the [`Development` section](#development) to install [Node.js](https://nodejs.org/en).
 7. Open the [NOTES.md](NOTES.md) file and run the first command in the [`Commands` section](NOTES.md#commands) to install the base packages.
+```
+
+```json
+{
+  "scripts": {
+    "lint:appTypes": "vue-tsc --project tsconfig.app.json --noEmit --composite false",
+    "lint:code": "prettier . --check",
+    "lint:nodeTypes": "vue-tsc --project tsconfig.node.json --noEmit --composite false",
+    "lint:pkgJson": "sort-package-json --check",
+    "lint:types": "run-s lint:appTypes lint:nodeTypes",
+    "lint": "run-s lint:pkgJson lint:types lint:code"
+  }
+}
 ```
 
 ## Commands
