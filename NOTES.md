@@ -16,6 +16,19 @@
   - https://github.com/vuejs/create-vue/blob/main/template/tsconfig/base/tsconfig.json
   - https://github.com/vuejs/create-vue/blob/main/template/tsconfig/base/tsconfig.app.json
   - https://github.com/vuejs/create-vue/blob/main/template/tsconfig/base/tsconfig.node.json
+- https://github.com/vuejs/create-vue-templates/tree/v3.9.2/typescript
+- https://github.com/vuejs/create-vue/releases
+- https://github.com/vuejs/create-vue/releases/tag/v3.9.0
+
+### Commands
+
+```bash
+npm create vue@3.9.2 test-create-vue
+```
+
+```bash
+$ npm create vite@5.2.1 test-create-vite -- --template vue-ts
+```
 
 ### Snippets
 
