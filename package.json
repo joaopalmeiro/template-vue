@@ -19,7 +19,7 @@
     "format": "run-s format:pkgJson format:code",
     "lint:code": "prettier . --check",
     "lint:pkgJson": "sort-package-json --check",
-    "lint:types": "vue-tsc --build --force",
+    "lint:types": "vue-tsc --build --force --verbose",
     "lint": "run-s lint:pkgJson lint:types lint:code",
     "preview": "vite preview"
   },

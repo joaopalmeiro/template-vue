@@ -20,6 +20,8 @@
 - https://github.com/vuejs/create-vue-templates/tree/v3.9.2/typescript
 - https://github.com/vuejs/create-vue/releases
 - https://github.com/vuejs/create-vue/releases/tag/v3.9.0
+- https://github.com/vuejs/language-tools/issues/3889
+- https://github.com/vuejs/language-tools/issues/3638
 
 ### Commands
 
