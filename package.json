@@ -27,6 +27,7 @@
     "vue": "3.4.19"
   },
   "devDependencies": {
+    "@joaopalmeiro/prettier-vue-config": "0.1.0",
     "@vitejs/plugin-vue": "5.0.4",
     "create-vue-tsconfigs": "0.1.0",
     "npm-run-all2": "6.1.2",

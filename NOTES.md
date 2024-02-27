@@ -62,9 +62,13 @@ rm -rf test-create-vite/ test-create-vue/
 ## Commands
 
 ```bash
-npm install vue && npm install -D vite @vitejs/plugin-vue typescript vue-tsc create-vue-tsconfigs sort-package-json npm-run-all2 prettier
+npm install vue && npm install -D vite @vitejs/plugin-vue typescript vue-tsc create-vue-tsconfigs sort-package-json npm-run-all2 prettier @joaopalmeiro/prettier-vue-config
 ```
 
 ```bash
 rm -rf node_modules/ && npm install
+```
+
+```bash
+npx prettier . --check --log-level debug
 ```
