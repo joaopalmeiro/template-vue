@@ -27,6 +27,7 @@
 - `vue.vscode-typescript-vue-plugin` extension:
   - https://github.com/vuejs/language-tools/blob/master/CHANGELOG.md
   - https://github.com/vuejs/language-tools/blob/v2.0.2/extensions/vscode/src/nodeClientMain.ts#L138
+  - https://github.com/vuejs/language-tools/blob/v2.0.2/extensions/vscode/src/nodeClientMain.ts#L129
   - https://github.com/vuejs/language-tools/releases/tag/v2.0.0
   - https://github.com/vuejs/language-tools/issues/3939
   - https://github.com/microsoft/vscode-discussions/discussions/1#discussioncomment-8648185
